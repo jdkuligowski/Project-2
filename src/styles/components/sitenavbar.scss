@@ -1,0 +1,23 @@
+.navbar {
+  background-color: $darkest !important;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  .container {
+    #basic-navbar-nav {
+      a {
+        color: #fff;
+      }
+      a:hover {
+        color: $light;
+      }
+      .random {
+        color: #fff;
+        background-color: $dark;
+        border: 1px solid $dark;
+      }
+      .random:hover, .random:active {
+        color: $medium;
+        background-color: $light;
+      }
+    }
+  }
+}

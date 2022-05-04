@@ -1,0 +1,19 @@
+@import './base.scss';
+@import './components/home.scss';
+@import './components/category.scss';
+@import './components/categories.scss';
+@import './components/recipe.scss';
+@import './components/sitenavbar.scss';
+@import './components/regions.scss';
+@import './components/region.scss';
+@import './components/utility/pagenotfound.scss';
+@import './components/utility/spinner.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
